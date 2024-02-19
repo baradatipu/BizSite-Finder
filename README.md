@@ -27,10 +27,7 @@ The generated query will be: `intitle:Best site:.business.site Hotel in India`.
 - Ensure all required fields are filled before clicking the "Find .BUSINESS.SITE Website" button.
 - The search query is constructed to find business details in the title and specific domain.
 
-## Contributors
-
-- [Your Name]
-- [Your Email]
+## Developed by Tipu
 
 Feel free to contribute and improve this project! If you encounter any issues, please report them on the [Issues](https://github.com/baradatipu/BizSite-Finder/issues) page.
 
