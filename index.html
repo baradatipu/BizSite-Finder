@@ -70,12 +70,14 @@
                 <div class="input-group">
                   <span class="input-group-text">site:</span>
                   <input
-                    type="text"
-                    class="form-control"
-                    id="site"
-                    name="site"
-                    placeholder="Examples: domain.com, domain.*, *.com "
-                  />
+  type="text"
+  class="form-control"
+  id="site"
+  name="site"
+  value=".business.site"
+  disabled
+/>
+
                 </div>
                 <small class="text-muted fw-light">
                   Restricts a search to a particular site or domain
@@ -179,6 +181,8 @@
     </form>
 
     <script>
+document.getElementById("site").removeAttribute("disabled");
+
       (function (window, document) {
         const form = document.forms.namedItem("generator");
         const log = document.querySelector("#log");
